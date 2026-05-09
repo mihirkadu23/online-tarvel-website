@@ -4,9 +4,9 @@ WORKDIR /src
 
 COPY . .
 
-RUN dotnet restore
+RUN dotnet restore "OnlineTravelWebsite.csproj"
 
-RUN dotnet publish -c Release -o /app/publish
+RUN dotnet publish "OnlineTravelWebsite.csproj" -c Release -o /app/publish
 
 # Runtime stage
 FROM mcr.microsoft.com/dotnet/aspnet:8.0
@@ -19,4 +19,4 @@ EXPOSE 10000
 
 ENV ASPNETCORE_URLS=http://+:10000
 
-ENTRYPOINT ["dotnet", "YOUR_PROJECT_NAME.dll"]
+ENTRYPOINT ["dotnet", "OnlineTravelWebsite.dll"]
