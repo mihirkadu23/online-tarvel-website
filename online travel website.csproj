@@ -1,0 +1,57 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <RootNamespace>online_travel_website</RootNamespace>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Content Remove="Views\Shared\Aboutus.cshtml" />
+    <Content Remove="Views\Shared\Bookno.cshtml" />
+    <Content Remove="Views\Shared\Catebooking.cshtml" />
+    <Content Remove="Views\Shared\Contactus.cshtml" />
+    <Content Remove="Views\Shared\Diamond.cshtml" />
+    <Content Remove="Views\Shared\Goa.cshtml" />
+    <Content Remove="Views\Shared\Gold.cshtml" />
+    <Content Remove="Views\Shared\Gujrat.cshtml" />
+    <Content Remove="Views\Shared\Jaipurdetails.cshtml" />
+    <Content Remove="Views\Shared\Jamukashmir.cshtml" />
+    <Content Remove="Views\Shared\Kerla.cshtml" />
+    <Content Remove="Views\Shared\Lakshdeepdetails.cshtml" />
+    <Content Remove="Views\Shared\Login.cshtml" />
+    <Content Remove="Views\Shared\Manali.cshtml" />
+    <Content Remove="Views\Shared\Mumbai.cshtml" />
+    <Content Remove="Views\Shared\Packages.cshtml" />
+    <Content Remove="Views\Shared\Payment.cshtml" />
+    <Content Remove="Views\Shared\Rajsthandetails.cshtml" />
+    <Content Remove="Views\Shared\Silver.cshtml" />
+    <Content Remove="Views\Shared\Success.cshtml" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="Views\Home\Aboutus.cshtml" />
+    <None Include="Views\Home\Bookno.cshtml" />
+    <None Include="Views\Home\Catebooking.cshtml" />
+    <None Include="Views\Home\Contactus.cshtml" />
+    <None Include="Views\Home\Diamond.cshtml" />
+    <None Include="Views\Home\Goa.cshtml" />
+    <None Include="Views\Home\Gold.cshtml" />
+    <None Include="Views\Home\Gujrat.cshtml" />
+    <None Include="Views\Home\Index.cshtml" />
+    <None Include="Views\Home\Jaipurdetails.cshtml" />
+    <None Include="Views\Home\Jamukashmir.cshtml" />
+    <None Include="Views\Home\Kerla.cshtml" />
+    <None Include="Views\Home\Lakshdeepdetails.cshtml" />
+    <None Include="Views\Home\Login.cshtml" />
+    <None Include="Views\Home\Manali.cshtml" />
+    <None Include="Views\Home\Mumbai.cshtml" />
+    <None Include="Views\Home\Packages.cshtml" />
+    <None Include="Views\Home\Payment.cshtml" />
+    <None Include="Views\Home\Rajsthandetails.cshtml" />
+    <None Include="Views\Home\Silver.cshtml" />
+    <None Include="Views\Home\Success.cshtml" />
+  </ItemGroup>
+
+</Project>

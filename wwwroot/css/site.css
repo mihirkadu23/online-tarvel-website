@@ -1,0 +1,382 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn-link.nav-link:focus,
+.form-control:focus,
+.form-check-input:focus {
+    box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin: 0;
+    margin-bottom: 60px;
+    font-family: 'Poppins', sans-serif;
+    background-color: #F8F9FA;
+    padding-top: 60px;
+}
+
+/* ================= IMAGES ================= */
+.destination-img {
+    height: 250px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.carousel-img {
+    height: 500px;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* ================= CARD ================= */
+.card {
+    border: none;
+    border-radius: 12px;
+    overflow: hidden;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+    .card:hover {
+        transform: translateY(-6px);
+    }
+
+    .card img {
+        transition: 0.4s;
+    }
+
+    .card:hover img {
+        transform: scale(1.05);
+    }
+
+/* ================= NAVBAR (FIXED + CENTERED) ================= */
+.navbar {
+    min-height: 50px;
+    padding: 5px 6px;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+   
+}
+
+    /* Align all navbar content */
+    .navbar .container,
+    .navbar-collapse {
+        display: flex;
+        align-items: center;
+    }
+
+/* Menu */
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+/* Nav links */
+.navbar .nav-link {
+    font-size: 16px;
+    padding: 6px 12px;
+    color: #ddd !important;
+}
+
+    .navbar .nav-link:hover {
+        color: #ffc107 !important;
+    }
+
+    .navbar .nav-link.active {
+        color: #ffc107 !important;
+        font-weight: 600;
+    }
+
+/* Logo */
+.navbar-brand {
+    font-size: 20px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    display: flex;
+    align-items: center;
+}
+
+/* Right section */
+.navbar .d-flex {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+/* Search */
+.navbar .form-control {
+    height: 36px;
+    font-size: 15px;
+}
+
+/* Button */
+.navbar .btn {
+    height: 34px;
+    font-size: 14px;
+    padding: 4px 10px;
+}
+
+/* User badge */
+.navbar .badge {
+    font-size: 13px;
+    padding: 6px 10px;
+}
+
+/* ================= DROPDOWN ================= */
+.dropdown-menu {
+    background-color: #212529;
+    border-radius: 8px;
+}
+
+.dropdown-item {
+    color: #ffffff;
+}
+
+    .dropdown-item:hover {
+        background-color: #0d6efd;
+        color: #ffffff;
+    }
+
+/* ================= SECTIONS ================= */
+.section-alt {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 12px;
+    margin-bottom: 30px;
+}
+
+.section-title {
+    font-weight: 700;
+    color: #212529;
+}
+
+    .section-title::after {
+        content: "";
+        display: block;
+        width: 60px;
+        height: 3px;
+        background: #0d6efd;
+        margin: 10px auto;
+    }
+
+/* ================= FORMS ================= */
+.form-control {
+    border-radius: 8px;
+    padding: 10px;
+}
+
+    .form-control:focus {
+        box-shadow: none;
+        border-color: #ccc;
+    }
+
+form input {
+    border-radius: 20px;
+    padding-left: 12px;
+}
+
+form button {
+    border-radius: 20px;
+}
+
+/* ================= CARDS ================= */
+.login-card,
+.contact-card,
+.payment-card {
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0,0,0,0.1);
+    transition: 0.3s;
+}
+
+    .login-card:hover,
+    .contact-card:hover,
+    .payment-card:hover {
+        transform: translateY(-3px);
+    }
+
+/* ================= PACKAGE ================= */
+.package-box {
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    background: #f8f9fa;
+}
+
+    .package-box.silver {
+        border-left: 5px solid gray;
+    }
+
+    .package-box.gold {
+        border-left: 5px solid gold;
+    }
+
+    .package-box.diamond {
+        border-left: 5px solid #0dcaf0;
+    }
+
+/* ================= CONTENT ================= */
+.main-content {
+    
+    min-height: 70vh;
+    background: linear-gradient(to right, #f8f9fa, #eef3ff);
+}
+
+/* ================= ABOUT ================= */
+.about-card {
+    background: white;
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 20px;
+    box-shadow: 0 6px 20px rgba(0,0,0,0.08);
+    transition: 0.3s;
+}
+
+    .about-card:hover {
+        transform: translateY(-5px);
+    }
+
+/* ================= CTA ================= */
+.cta {
+    width: 180px;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* ================= REVIEWS ================= */
+.review-card {
+    background: #ffffff;
+    border-radius: 12px;
+    padding: 20px;
+    box-shadow: 0 6px 18px rgba(0,0,0,0.08);
+    border-left: 5px solid #0d6efd;
+    transition: 0.3s;
+}
+
+    .review-card:hover {
+        transform: translateY(-5px);
+    }
+
+    .review-card p {
+        font-style: italic;
+        color: #444;
+    }
+
+    .review-card h6 {
+        font-weight: 600;
+        color: #0d6efd;
+    }
+
+.review-blue {
+    border-left-color: #0d6efd;
+}
+
+.review-green {
+    border-left-color: #198754;
+}
+
+.review-orange {
+    border-left-color: #fd7e14;
+}
+
+/* ================= FOOTER ================= */
+footer a:hover {
+    color: #ffc107;
+}
+
+/* ================= UTIL ================= */
+.badge {
+    cursor: pointer;
+    border-radius: 20px;
+}
+
+.container {
+    margin-bottom: 30px;
+}
+.success-card {
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+    padding: 30px;
+    animation: fadeIn 0.5s ease-in-out;
+}
+
+
+.star {
+    cursor: pointer;
+    font-size: 28px;
+    transition: 0.2s;
+}
+
+.star:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(10px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+.btn-home {
+    background: linear-gradient(90deg, #2563eb, #1d4ed8);
+    border-radius: 8px;
+    font-weight: 500;
+    padding: 10px 20px;
+    display: inline-block;
+   
+}
+
+    .btn-home:hover {
+        transform: scale(1.03);
+    }
+
+
+.destination-card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.destination-img {
+    height: 200px; /* fixed image height */
+    object-fit: cover; /* crop image properly */
+    width: 100%;
+}
+
+.destination-card .card-body {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.destination-card p {
+    font-size: 15px;
+    min-height: 40px; /* keeps text area consistent */
+}

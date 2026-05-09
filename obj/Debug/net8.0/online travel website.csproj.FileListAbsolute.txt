@@ -1,0 +1,34 @@
+C:\Users\Dell\source\repos\online travel website\online travel website\bin\Debug\net8.0\appsettings.Development.json
+C:\Users\Dell\source\repos\online travel website\online travel website\bin\Debug\net8.0\appsettings.json
+C:\Users\Dell\source\repos\online travel website\online travel website\bin\Debug\net8.0\online travel website.staticwebassets.runtime.json
+C:\Users\Dell\source\repos\online travel website\online travel website\bin\Debug\net8.0\online travel website.staticwebassets.endpoints.json
+C:\Users\Dell\source\repos\online travel website\online travel website\bin\Debug\net8.0\online travel website.exe
+C:\Users\Dell\source\repos\online travel website\online travel website\bin\Debug\net8.0\online travel website.deps.json
+C:\Users\Dell\source\repos\online travel website\online travel website\bin\Debug\net8.0\online travel website.runtimeconfig.json
+C:\Users\Dell\source\repos\online travel website\online travel website\bin\Debug\net8.0\online travel website.dll
+C:\Users\Dell\source\repos\online travel website\online travel website\bin\Debug\net8.0\online travel website.pdb
+C:\Users\Dell\source\repos\online travel website\online travel website\obj\Debug\net8.0\rpswa.dswa.cache.json
+C:\Users\Dell\source\repos\online travel website\online travel website\obj\Debug\net8.0\online travel website.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Dell\source\repos\online travel website\online travel website\obj\Debug\net8.0\online travel website.AssemblyInfoInputs.cache
+C:\Users\Dell\source\repos\online travel website\online travel website\obj\Debug\net8.0\online travel website.AssemblyInfo.cs
+C:\Users\Dell\source\repos\online travel website\online travel website\obj\Debug\net8.0\online travel website.csproj.CoreCompileInputs.cache
+C:\Users\Dell\source\repos\online travel website\online travel website\obj\Debug\net8.0\online travel website.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\Dell\source\repos\online travel website\online travel website\obj\Debug\net8.0\online travel website.RazorAssemblyInfo.cache
+C:\Users\Dell\source\repos\online travel website\online travel website\obj\Debug\net8.0\online travel website.RazorAssemblyInfo.cs
+C:\Users\Dell\source\repos\online travel website\online travel website\obj\Debug\net8.0\rjimswa.dswa.cache.json
+C:\Users\Dell\source\repos\online travel website\online travel website\obj\Debug\net8.0\rjsmrazor.dswa.cache.json
+C:\Users\Dell\source\repos\online travel website\online travel website\obj\Debug\net8.0\rjsmcshtml.dswa.cache.json
+C:\Users\Dell\source\repos\online travel website\online travel website\obj\Debug\net8.0\scopedcss\Views\Shared\_Layout.cshtml.rz.scp.css
+C:\Users\Dell\source\repos\online travel website\online travel website\obj\Debug\net8.0\scopedcss\bundle\online travel website.styles.css
+C:\Users\Dell\source\repos\online travel website\online travel website\obj\Debug\net8.0\scopedcss\projectbundle\online travel website.bundle.scp.css
+C:\Users\Dell\source\repos\online travel website\online travel website\obj\Debug\net8.0\staticwebassets.build.json
+C:\Users\Dell\source\repos\online travel website\online travel website\obj\Debug\net8.0\staticwebassets.build.json.cache
+C:\Users\Dell\source\repos\online travel website\online travel website\obj\Debug\net8.0\staticwebassets.development.json
+C:\Users\Dell\source\repos\online travel website\online travel website\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+C:\Users\Dell\source\repos\online travel website\online travel website\obj\Debug\net8.0\swae.build.ex.cache
+C:\Users\Dell\source\repos\online travel website\online travel website\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+C:\Users\Dell\source\repos\online travel website\online travel website\obj\Debug\net8.0\online travel website.dll
+C:\Users\Dell\source\repos\online travel website\online travel website\obj\Debug\net8.0\refint\online travel website.dll
+C:\Users\Dell\source\repos\online travel website\online travel website\obj\Debug\net8.0\online travel website.pdb
+C:\Users\Dell\source\repos\online travel website\online travel website\obj\Debug\net8.0\online travel website.genruntimeconfig.cache
+C:\Users\Dell\source\repos\online travel website\online travel website\obj\Debug\net8.0\ref\online travel website.dll
