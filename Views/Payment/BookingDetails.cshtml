@@ -1,0 +1,57 @@
+﻿@model online_travel_website.Models.PaymentBooking
+
+<div class="container mt-5">
+
+    <div class="card shadow p-4">
+
+        <h2 class="text-center text-primary">
+            Booking Details
+        </h2>
+
+        <table class="table table-bordered mt-4">
+
+            <tr>
+                <th>Booking ID</th>
+                <td>@Model.BookingId</td>
+            </tr>
+
+            <tr>
+                <th>Customer Name</th>
+                <td>@Model.CustomerName</td>
+            </tr>
+
+            <tr>
+                <th>Email</th>
+                <td>@Model.Email</td>
+            </tr>
+
+            <tr>
+                <th>Mobile</th>
+                <td>@Model.Mobile</td>
+            </tr>
+
+            <tr>
+                <th>Package</th>
+                <td>@Model.PackageName</td>
+            </tr>
+
+            <tr>
+                <th>Destination</th>
+                <td>@Model.Destination</td>
+            </tr>
+
+            <tr>
+                <th>Amount</th>
+                <td>₹ @Model.Amount</td>
+            </tr>
+
+            <tr>
+                <th>Payment Method</th>
+                <td>@Model.PaymentMethod</td>
+            </tr>
+
+        </table>
+
+    </div>
+
+</div>
